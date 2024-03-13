@@ -1,0 +1,90 @@
+body {
+    background-color: #F0F8FF; /* aliceblue */
+    font-family: sans-serif;
+}
+
+
+div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+h1 {    
+    font-size: 58px;
+    display: inline;
+    vertical-align: middle;    
+}
+
+
+img {
+    border: 0px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+
+fieldset {
+    border: 0px;
+}
+
+
+li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#titleBlock {
+    text-align: center;
+    margin-bottom: 60px;    
+}
+
+
+.note {
+    font-weight: bold;
+}
+
+
+.launchBox {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    padding: 2em;
+
+    border: 3px solid black;
+
+    background-color: white;
+}
+
+
+.launchButton {    
+    margin: 1.5em;
+
+    text-align: center;
+    left: 0px;    
+}
+
+
+#authorBox {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-style: italic;
+}
+
+
+#authorBox p {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+.authorLink {
+    font-weight: bold;
+}
+
+
+#validParagraph {
+    text-align: center;
+    margin-top: 50px;
+}

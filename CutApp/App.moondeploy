@@ -1,0 +1,25 @@
+
+{
+    "DescriptorVersion":"3.0",
+    "BaseURL":"http://www.or.deis.unibo.it/staff_pages/martello/CutApp",
+    "Name":"Gomory's Cut - ILP",
+    "Version":"1.0",
+    "Publisher":"Roberto Saluto",
+    "Description":"Interactive application for perfoming Gomory's cuts",
+    "SkipPackageLevels":1,
+    "SkipUpdateCheck":false,
+    "Packages":{
+        "CutApp-1.0.zip":""
+    },
+    "CommandLine":[
+        "bash",
+        "bin/CutApp"
+    ],
+    "OS":{
+        "windows":{
+            "CommandLine":[
+                "bin\\CutApp.bat"
+            ]
+        }
+    }
+}

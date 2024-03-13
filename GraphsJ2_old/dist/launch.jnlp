@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE jnlp PUBLIC "-//Sun Microsystems, Inc//DTD JNLP Descriptor 6.0//EN" "http://java.sun.com/dtd/JNLP-6.0.dtd">
+
+
+<jnlp version="2.1" codebase="http://www.or.deis.unibo.it/staff_pages/martello/GraphsJ2/dist/" href="launch.jnlp" spec="6.0+">
+    <information>
+        <title>GraphsJ 2</title>
+
+        <vendor>Gianluca Costa</vendor>
+
+        <homepage href="http://www.or.deis.unibo.it/staff_pages/martello/GraphsJ2/GraphsJ2.html"/>
+
+        <description>A modern open source Java application and framework for graph algorithms</description>
+
+        <description kind="short">GraphsJ 2</description>
+
+        <icon href="http://www.or.deis.unibo.it/staff_pages/martello/GraphsJ2/BigIcon.png" kind="default"/>
+
+        <offline-allowed />
+        
+        <shortcut online="false">
+            <desktop />
+        </shortcut>
+        
+    </information>
+
+
+    <security>
+        <all-permissions/>
+    </security>
+
+
+    <update check="timeout" policy="always" />
+
+
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="GraphsJ_2.jar" main="true"/>
+    </resources>
+		
+    <application-desc main-class="gianlucacosta86.graphsj2.Application">       
+    </application-desc>
+</jnlp>

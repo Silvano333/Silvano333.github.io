@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GraphsJ_3.jnlp">
+  <information>
+    <title>GraphsJ 3</title>
+    <vendor>Gianluca Costa</vendor>
+    <description>An elegant and modern didactic application for running graph algorithms</description>
+    <icon href="mainIcon32.png" />
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.8+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="graphsj-3.5.jar" size="138641" download="eager" />
+    <jar href="lib/aopalliance-1.0.jar" size="6637" download="eager" />
+    <jar href="lib/arcontes-core-1.4.jar" size="82153" download="eager" />
+    <jar href="lib/arcontes-fx-1.4.jar" size="138061" download="eager" />
+    <jar href="lib/commons-lang3-3.1.jar" size="334504" download="eager" />
+    <jar href="lib/commons-logging-1.1.1.jar" size="65470" download="eager" />
+    <jar href="lib/graphsj-algorithms-3.4.jar" size="85310" download="eager" />
+    <jar href="lib/graphsj-sdk-3.4.jar" size="48454" download="eager" />
+    <jar href="lib/helios-core-1.6.jar" size="112633" download="eager" />
+    <jar href="lib/helios-fx-1.6.jar" size="77290" download="eager" />
+    <jar href="lib/helios-spring-1.6.jar" size="8687" download="eager" />
+    <jar href="lib/helios-xml-1.6.jar" size="10812" download="eager" />
+    <jar href="lib/jts-1.12.jar" size="831039" download="eager" />
+    <jar href="lib/log4j-1.2.17.jar" size="519851" download="eager" />
+    <jar href="lib/slf4j-api-1.7.2.jar" size="30110" download="eager" />
+    <jar href="lib/slf4j-log4j12-1.7.2.jar" size="11114" download="eager" />
+    <jar href="lib/spring-aop-3.1.3.RELEASE.jar" size="363859" download="eager" />
+    <jar href="lib/spring-asm-3.1.3.RELEASE.jar" size="57199" download="eager" />
+    <jar href="lib/spring-beans-3.1.3.RELEASE.jar" size="635995" download="eager" />
+    <jar href="lib/spring-context-3.1.3.RELEASE.jar" size="916226" download="eager" />
+    <jar href="lib/spring-core-3.1.3.RELEASE.jar" size="490333" download="eager" />
+    <jar href="lib/spring-expression-3.1.3.RELEASE.jar" size="191843" download="eager" />
+    <jar href="lib/xercesImpl-2.4.0.jar" size="961617" download="eager" />
+    <jar href="lib/xmlpull-1.1.3.1.jar" size="9022" download="eager" />
+    <jar href="lib/xpp3_min-1.1.4c.jar" size="26963" download="eager" />
+    <jar href="lib/xstream-1.4.3.jar" size="526541" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+  <jfx:details>
+     <jfx:certificate-path>MIICkjCCAo4wggJMoAMCAQICBAE2AH4wCwYHKoZIzjgEAwUAMBkxFzAVBgNVBAMTDkdpYW5sdWNh
+IENvc3RhMB4XDTEzMDQxNTE0MDkxNFoXDTE4MDQxNDE0MDkxNFowGTEXMBUGA1UEAxMOR2lhbmx1
+Y2EgQ29zdGEwggG3MIIBLAYHKoZIzjgEATCCAR8CgYEA/X9TgR11EilS30qcLuzk5/YRt1I870QA
+wx4/gLZRJmlFXUAiUftZPY1Y+r/F9bow9subVWzXgTuAHTRv8mZgt2uZUKWkn5/oBHsQIsJPu6nX
+/rfGG/g7V+fGqKYVDwT7g/bTxR7DAjVUE1oWkTL2dfOuK2HXKu/yIgMZndFIAccCFQCXYFCPFSML
+zLKSuYKi64QL8Fgc9QKBgQD34aCF1ps93su8q1w2uFe5eZSvu/o66oL5V0wLPQeCZ1FZV4661FlP
+5nEHEIGAtEkWcSPoTCgWE7fPCTKMyKbhPBZ6i1R8jSjgo64eK7OmdZFuo38L+iE1YvH7YnoBJDvM
+pPG+qFGQiaiD3+Fa5Z8GkotmXoB7VSVkAUw7/s9JKgOBhAACgYAiZ1vu2Y67NNBwLDbA4a28vY56
+h3RY1zdJJba/hdY5K7R+J2FvG6LskQ0P+YnCPLn0Weqh5zHcWQP6X9w8Pr7mjbsa7OYQapTYO8qY
+d/HaRSFiJ8bJigl9mhLRRXvvj4zN7T4KZMK1FVwnbx/8/f8sGIcH+yej5vgsq6ESjK8HLaMhMB8w
+HQYDVR0OBBYEFBv/bFXLAIu/I3+zv7AaZiaDUbQXMAsGByqGSM44BAMFAAMvADAsAhRC4S9IvbMK
+eLJpe9sTzBX4B0RfoAIUJVec9QoH4MIzxcqkZdAqb72ZcDc=</jfx:certificate-path>
+  </jfx:details>
+</security>
+  <shortcut><desktop/></shortcut>
+  <applet-desc  width="400" height="300" main-class="com.javafx.main.NoJavaFXFallback"  name="GraphsJ 3" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="400" height="300" main-class="info.gianlucacosta.graphsj3.Main"  name="GraphsJ 3" >
+    <fx:param name="javafx.default.preloader.stylesheet" value=".default-preloader { 
+            -fx-background-color: #e8f8f5;                        
+            }"/>
+  </jfx:javafx-desc>
+  <update check="background"/>
+</jnlp>

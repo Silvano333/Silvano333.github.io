@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+
+        <meta name="author" content="Gianluca Costa" />
+
+        <meta name="description" content="GraphsJ 2 - A modern open source Java application and framework for graph algorithms. Open source software. Copyright © 2009-2011 Gianluca Costa." />
+
+        <meta name="keywords" lang="en" content="GraphsJ 2, GraphsJ, graphs, graph algorithms, didactic software, Java, extendable, Prim, SST, SPP, Dijkstra, CPM, Ford-Fulkerson, Didactic Java Software, Gianluca Costa, Silvano Martello, Claudia D'Ambrosio, Paolo Tagliapietra, GraphsJ 2 Extension Pack"/>
+
+        <meta name="keywords" lang="it" content="GraphsJ 2, GraphsJ, grafi, algoritmi sui grafi, software didattico, Java, estendibile, Prim, SST, SPP, Dijkstra, CPM, Ford-Fulkerson, software Java didattico, Gianluca Costa, Silvano Martello, Claudia D'Ambrosio, Paolo Tagliapietra, GraphsJ 2 Extension Pack"/>
+
+        <link rel="icon" href="BigIcon.png" />
+
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+
+        <title>GraphsJ 2 - A modern open source Java application and framework for graph algorithms</title>
+
+        <script src="code.js" type="text/javascript">
+        </script>
+    </head>
+
+    <body onload="onDefaultSelected()">
+
+        <div id="titleBlock" >
+            <img src="BigIcon.png" alt="" /> <h1>GraphsJ 2.5</h1> <img src="BigIcon.png" alt="" />
+        </div>
+
+        <div>
+            <ul>
+                <li>Launch GraphsJ 2 to run graph algorithms:
+
+                    <form class="launchBox" method="get" action="">
+                        <div class="launchButton">
+                            <a id="launchLink">
+                                <img class="launchButton" alt="Launch GraphsJ 2" src="Launch.png" />
+                            </a>
+                        </div>
+
+                        <fieldset>
+                            <input type="radio" name="launchType" checked="checked" onclick="onDefaultSelected()" alt="" />Launch using the default theme
+                            <input type="radio" name="launchType" onclick="onNimbusSelected()" />Launch using the Nimbus theme
+                        </fieldset>
+                    </form>
+                </li>
+                <li>To develop your own, custom algorithms in Java, or just to have a look at the source code, download the <a href="GraphsJ_2_SDK.zip">GraphsJ 2 Software Development Kit (SDK)</a></li>
+				
+				<li>Download the <a href="ExtensionPackSrc.zip">GraphsJ 2 Extension Pack source code</a>, developed by Paolo Tagliapietra, to study more algorithm implementations</li>
+				
+
+                <li>Download the <a href="Pseudocode.pdf">pseudocode</a> for the standard algorithms implemented by this version of GraphsJ 2</li>						
+
+                <li>Download some <a href="GraphsJ_2_Examples.zip">example files</a></li>
+            </ul>
+        </div>
+
+
+        <div>
+            <p class="note">
+                Please, note: Java 1.6 or higher is required in order to run the application or to create your own algorithms.
+            </p>
+
+        </div>
+
+        <div id="authorBox">
+            <p>
+                GraphsJ 2 was developed by <a class="authorLink" href="http://gianlucacosta.altervista.org/">Gianluca Costa</a>. Copyright © 2009-2011 Gianluca Costa.
+            </p>
+			
+			<p>
+			The GraphsJ 2 Extension Pack was developed by <a href="mailto:paolo.tagliapietra@gmail.com">Paolo Tagliapietra</a>. Copyright © 2011 Paolo Tagliapietra.
+			</p>
+
+            <p>
+                For further information and to download other versions or other programs, you are invited to visit <a href="http://gianlucacosta.altervista.org/">the author's website</a>.
+            </p>
+
+        </div>
+
+        <div>
+            <p>GraphsJ 2 and the GraphsJ 2 Extension Pack are released under <a href="http://www.gnu.org/licenses/licenses.html#GPL">GPLv3.</a> <a href="http://www.gnu.org/licenses/licenses.html#GPL"><img alt="GPLv3" src="gplv3-88x31.png" /></a></p>
+
+
+            <p>
+                To report bugs or suggestions, please consult the <a href="http://gianlucacosta.altervista.org/about/contacts.php">contacts page</a> on the author's website.
+
+            </p>
+        </div>
+
+
+        <div>            
+            Gianluca Costa would like to thank:
+    <dl>
+        <dt><a href="http://www.or.deis.unibo.it/staff_pages/martello/cvitae.html">Professor Silvano Martello</a></dt>
+        <dd>for his precious advice and testing</dd>
+        
+        <dt><a href="http://www.or.deis.unibo.it/staff_pages/dambrosio/cv_claudia_english.htm">Claudia D'Ambrosio, PhD</a></dt>
+        <dd>for her precious advice and testing</dd>
+        
+        <dt><a href="mailto:paolo.tagliapietra@gmail.com">Paolo Tagliapietra</a></dt>
+        <dd>for:
+            <ul>
+                <li>his GraphsJ 2 Extension Pack, featuring several new algorithms</li>
+                <li>the example problems related to the GraphsJ 2 Extension Pack</li>
+                <li>his advice on GUI usability and his valuable bug reports</li>                
+            </ul>
+                
+        </dd>
+        
+        <dt>Bruno Tagliapietra</dt> 
+        <dd>for some advice on GUI usability</dd>
+    </dl>
+
+	</div>
+
+        <p id="validParagraph">
+            <a href="http://validator.w3.org/check?uri=referer">
+                <img
+                    src="valid-xhtml10.png"
+                    alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+            </a>
+
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                     src="vcss.gif"
+                     alt="Valid CSS!" />
+            </a>
+        </p>
+
+    </body>
+</html>

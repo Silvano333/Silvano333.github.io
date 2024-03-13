@@ -1,0 +1,40 @@
+\documentstyle[12pt]{article}
+\textwidth 500pt
+\textheight 9.0in
+\voffset=-1.0cm
+\hoffset=-2.3cm
+\parskip=10pt plus1pt minus1pt
+\begin{document}
+\pagestyle{empty}
+\baselineskip=14pt
+\large
+
+\noindent
+{\bf Ricerca Operativa Vecchio Ordinamento}
+
+\noindent
+11 Dicembre 2007, ore 15.00 (scritto)\\
+18 Dicembre 2007, ore 15.00 (orale)\\
+Febbraio 2008 (scritto + orale)\\*[1ex]
+
+\noindent
+{\bf Fondamenti di Ricerca Operativa L-A\\
+Ricerca Operativa L-A\\
+Ricerca Operativa LS}
+
+\noindent
+11 Dicembre 2007, ore 15.00 (scritto)\\
+18 Dicembre 2007, ore 15.00 (orale)\\*[1ex]
+14 Gennaio 2008, ore 15.00 (scritto)\\
+17 Gennaio 2008, ore 15.00 (orale)\\*[1ex]
+
+
+\noindent
+{\bf Appelli successivi:}\\
+Marzo\\
+Giugno\\
+Luglio\\
+Settembre\\
+
+
+\end{document}

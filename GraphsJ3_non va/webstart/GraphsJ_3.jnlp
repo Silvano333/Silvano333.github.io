@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GraphsJ_3.jnlp">
+  <information>
+    <title>GraphsJ 3</title>
+    <vendor>Gianluca Costa</vendor>
+    <description>Elegant and modern didactic application for running graph algorithms</description>
+    <icon href="mainIcon32.png" />
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.8+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/aopalliance-1.0.jar" size="6429" download="eager" />
+    <jar href="lib/arcontes-core-1.5.jar" size="71178" download="eager" />
+    <jar href="lib/arcontes-fx-1.5.jar" size="124841" download="eager" />
+    <jar href="lib/commons-lang3-3.1.jar" size="320312" download="eager" />
+    <jar href="lib/commons-logging-1.1.1.jar" size="63178" download="eager" />
+    <jar href="lib/graphsj-3.7.jar" size="115611" download="eager" />
+    <jar href="lib/graphsj-algorithms-3.5.jar" size="67137" download="eager" />
+    <jar href="lib/graphsj-sdk-3.5.jar" size="32510" download="eager" />
+    <jar href="lib/helios-core-1.7.jar" size="98971" download="eager" />
+    <jar href="lib/helios-fx-1.7.jar" size="68316" download="eager" />
+    <jar href="lib/helios-spring-1.7.jar" size="4502" download="eager" />
+    <jar href="lib/helios-xml-1.7.jar" size="6421" download="eager" />
+    <jar href="lib/jts-1.12.jar" size="780968" download="eager" />
+    <jar href="lib/log4j-1.2.17.jar" size="491849" download="eager" />
+    <jar href="lib/slf4j-api-1.7.2.jar" size="28462" download="eager" />
+    <jar href="lib/slf4j-log4j12-1.7.2.jar" size="10926" download="eager" />
+    <jar href="lib/spring-aop-3.1.3.RELEASE.jar" size="338896" download="eager" />
+    <jar href="lib/spring-asm-3.1.3.RELEASE.jar" size="55046" download="eager" />
+    <jar href="lib/spring-beans-3.1.3.RELEASE.jar" size="600945" download="eager" />
+    <jar href="lib/spring-context-3.1.3.RELEASE.jar" size="850379" download="eager" />
+    <jar href="lib/spring-core-3.1.3.RELEASE.jar" size="458623" download="eager" />
+    <jar href="lib/spring-expression-3.1.3.RELEASE.jar" size="182034" download="eager" />
+    <jar href="lib/xercesImpl-2.4.0.jar" size="897885" download="eager" />
+    <jar href="lib/xmlpull-1.1.3.1.jar" size="9150" download="eager" />
+    <jar href="lib/xpp3_min-1.1.4c.jar" size="27017" download="eager" />
+    <jar href="lib/xstream-1.4.3.jar" size="490183" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+  <jfx:details>
+     <jfx:certificate-path>MIIE1TCCBNEwggK5oAMCAQICBFGCJWIwDQYJKoZIhvcNAQENBQAwGTEXMBUGA1UEAxMOR2lhbmx1
+Y2EgQ29zdGEwHhcNMTUwNDE5MDAxMDA4WhcNMjEwNDE3MDAxMDA4WjAZMRcwFQYDVQQDEw5HaWFu
+bHVjYSBDb3N0YTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAIJfXEgHCY1gZvWqsDH3
+YcNsNOY2eMaNKHSFzFCXTQj2O7B4onAGiOx+u+hmjjPnfMHTn3eLtOoTepERh3IpEGVNCpZAUXe5
+jowBn1xbiA+VEyFf96BCK0y3QvoKYjO7tFxJ9wboqI/XveKzAIqOQvuLJEHRoNZtC6QjqgSZwO4k
+fFPcAgUvUGvhI+x8/iT7hrEq63l7uXmXDH3kvqwALoVhZwA84+RpCdMOm2U7Fb5zNg9ZAWf6zAJt
+PU+mINXk+zOPo3H5PK37yQ6MQL9zCapCuvx+pacSNRzRqcbIUdwoQSuHk5qNGBV79iin1h1yOBgB
+ouEi6IXxUWoNFo30S2/vbnPj0kbpr4AyFhMTnFcg3Ib46T4arcenOgBJPLchQC41NifLrVyw8TQY
+QjXyYbq0ec1nyy6xHmzDDPjS+aFWL/4B82OlxXbXWoPpI1qJsFve2eAB633vahHRAX8jkqKP0MbU
+z/3gWXjrX+Hefqs0s1crmd28P1F2GflThS7GCgyQWEEBpE48g6rJsSZjARbuAdSl7rBK7/duDag5
+K9Gmc38dMZw3uwF0ohUSUPmlkVHEgbRN0ZIBZggyS/8fAlGtdnk3SPzzRQyemLMtPsx2Ul+z2ZyS
+kF9BQ875w0qg6GZHGgEsk1bvFkllWrTsM/HYvbuVZYlQ3iTJGJuCIBQrAgMBAAGjITAfMB0GA1Ud
+DgQWBBQivNLO2lCkCsafQQ3H40+7v0ZhdDANBgkqhkiG9w0BAQ0FAAOCAgEAEeA+9zg6YIzbXtnt
+NxD/IcTh6SPFz+6LEkkfIvvPN4bI/BAiPp1o3bMCayoWhqcip4aHvUz4P6t89hs3wmT9JEJbufHG
+JOJMMxS+OFTKIkDcMhMoEDQ8iD3QJFfNR9ARnKyI4Da9qjUaT7Ky36x7swynha/K4qjlJKZDD4F9
+xsjLi0dNsOOl7XJ54KT8EMvUWm5Cuib7/6yQn8L+6kWcjHF3P4OinREsnQ0llJFwMQYOlxpuQtud
++K7rQ4ugSfhF3ZdiPW30gGYDe9X5pev6NnSqKv6PkGuG8oJGKOIlEEKTcoDritG0u92oZoLxJuRz
+CD729FztW7tZ57vMZJnk1uAnJ/ZcjNsxyIarXM+0Ef4dMaGXAYn3bYVW+O9frtiPqwDjhHmnqTag
+Sejdf3IzhfVoFHosIPUvV+AT3b8DC67GLwssGMvghcr1jgJ500iOXp44wBkxSkRUiA4bHyMRpkQz
+mahEZD1sA6iyUo51FhKQREYMZFu/XJjklB6gpXHVOtQZG582CCHXglKSpdEVYwgTZ8AOElNu1TV0
+5jCKYyKYW3zo9kQSbH863U4bTGZKU4/ND8uHhjziR4rLEDIkMAEGmbasGHUX90z3voO5yBAOkm/B
+H6RNh+Hkna1nzF9iUjCHEtdzZLW+SgG0pMt3ColDAGmytYxQRki/5/39CCs=</jfx:certificate-path>
+  </jfx:details>
+</security>
+  <shortcut><desktop/></shortcut>
+  <applet-desc  width="400" height="300" main-class="com.javafx.main.NoJavaFXFallback"  name="GraphsJ 3" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="400" height="300" main-class="info.gianlucacosta.graphsj3.Main"  name="GraphsJ 3" />
+  <update check="background"/>
+</jnlp>

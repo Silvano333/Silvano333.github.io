@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+
+  <title>Gomory's Cut - ILP</title>
+
+  <meta name="description" content="Gomory's Cut - Java application">
+  <meta name="keywords" content="Gomory, taglio, cut, ILP, integer, linear, programming, Ricerca Operativa, algoritmo, simplesso, duale, simplex, dual">
+
+
+  <style type="text/css">
+    body {
+      font-family: sans-serif;
+      background: #fefcea; /* Old browsers */
+      background: -moz-linear-gradient(top, hsl(54,91%,96%) 0%, hsl(53,87%,58%) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, hsl(54,91%,96%) 0%,hsl(53,87%,58%) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, hsl(54,91%,96%) 0%,hsl(53,87%,58%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */ft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+    }
+
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+
+
+    #screenshotBox {
+      text-align: center;
+    }
+
+
+    #linksBox {
+      border: 1.2px solid gray;
+
+      width: 90%;
+      margin-left: 5%;
+
+      padding: 2em;
+
+      margin-bottom: 2em;
+
+      text-align: center;
+
+      background: #f8ffe8; /* Old browsers */
+      background: -moz-linear-gradient(top, hsl(78,100%,95%) 0%, hsl(75,79%,82%) 33%, hsl(73,74%,53%) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, hsl(78,100%,95%) 0%,hsl(75,79%,82%) 33%,hsl(73,74%,53%) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, hsl(78,100%,95%) 0%,hsl(75,79%,82%) 33%,hsl(73,74%,53%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 ); /* IE6-9 */
+    }
+
+    .buttonLink {
+      padding: 0.5em;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: black;
+      border: 1.2px solid black;
+    }
+
+    .buttonLink:visited {
+      color: black;
+    }
+
+    #runButton {
+      margin-right: 1em;
+
+      background: #febbbb; /* Old browsers */
+      background: -moz-linear-gradient(top, hsl(0,97%,87%) 0%, hsl(0,98%,78%) 45%, hsl(0,100%,68%) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, hsl(0,97%,87%) 0%,hsl(0,98%,78%) 45%,hsl(0,100%,68%) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, hsl(0,97%,87%) 0%,hsl(0,98%,78%) 45%,hsl(0,100%,68%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+    }
+
+    #zipButton {
+      background: #499bea; /* Old browsers */
+      background: -moz-linear-gradient(top, hsl(209,79%,60%) 0%, hsl(212,79%,51%) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, hsl(209,79%,60%) 0%,hsl(212,79%,51%) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, hsl(209,79%,60%) 0%,hsl(212,79%,51%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+    }
+
+    #instructionsBox {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Gomory's Cut - ILP</h1>
+
+  <div id="linksBox">
+    <a id="runButton" class="buttonLink" href="App.moondeploy" type="application/octet-stream"
+    title="Easily download and run this app using the MoonDeploy tool.&#10;Visit http://gianlucacosta.info/moondeploy for more info">Run with MoonDeploy</a>
+
+    <a id="zipButton" class="buttonLink" href="CutApp-1.0.zip"
+    title="Download the zip file, for any operating system">Download binary zip</a>
+  </div>
+
+  <div id="instructionsBox">
+    <h2>Requirements</h2>
+
+    This is a Java application: the latest version of Java is therefore recommended.
+
+    <hr />
+
+    <h2>Installation instructions</h2>
+
+    To install this app, you can:
+
+    <ul>
+      <li>
+        <p>
+          Download its <b>binary zip file</b>, decompress it wherever you want and run one of the scripts
+          in its <b>bin</b> folder
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Alternatively, you can install it via <a href="http://gianlucacosta.info/moondeploy/">MoonDeploy</a>,
+          just by clicking on <b>Run with MoonDeploy</b> and opening the app descriptor file with MoonDeploy.
+        </p>
+      </li>
+  </div>
+
+  <div id="screenshotBox">
+    <img id="screenshot" src="screenshot.png" alt="Screenshot" width="1100" height="586" />
+  </div>
+</body>
+
+</html>

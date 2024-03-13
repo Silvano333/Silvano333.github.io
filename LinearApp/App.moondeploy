@@ -1,0 +1,25 @@
+
+{
+    "DescriptorVersion":"3.0",
+    "BaseURL":"http://www.or.deis.unibo.it/staff_pages/martello/LinearApp",
+    "Name":"Linear Programming",
+    "Version":"1.0",
+    "Publisher":"Simone Bacchilega",
+    "Description":"Interactive application for Linear Programming (LP)",
+    "SkipPackageLevels":1,
+    "SkipUpdateCheck":false,
+    "Packages":{
+        "LinearApp-1.0.zip":""
+    },
+    "CommandLine":[
+        "bash",
+        "bin/LinearApp"
+    ],
+    "OS":{
+        "windows":{
+            "CommandLine":[
+                "bin\\LinearApp.bat"
+            ]
+        }
+    }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://www.or.deis.unibo.it/staff_pages/martello/GraphsJ/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>GraphsJ</title>
+        <vendor>Gianluca Costa</vendor>
+        <homepage href="http://www.or.deis.unibo.it/staff_pages/martello/GraphsJ/GraphsJ.html"/>
+        <description>Didactic Java software for graph algorithms.</description>
+        <description kind="short">GraphsJ</description>
+		<icon href="BigIcon.png" kind="default"/>
+	</information>
+
+	<security>
+		<all-permissions/>
+	</security>
+
+
+	<resources>
+		<j2se version="1.6+"/>
+		<jar eager="true" href="GraphsJ.jar" main="true"/>
+		<jar href="lib/jgraph.jar"/>
+		<jar href="lib/jgrapht-jdk1.6.jar"/>
+	</resources>
+		
+	<application-desc main-class="graphsj.Application">
+		<argument>com.sun.java.swing.plaf.windows.WindowsLookAndFeel</argument>
+	</application-desc>
+</jnlp>

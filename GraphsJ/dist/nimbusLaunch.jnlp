@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE jnlp PUBLIC "-//Sun Microsystems, Inc//DTD JNLP Descriptor 6.0//EN" "http://java.sun.com/dtd/JNLP-6.0.dtd">
+
+
+<jnlp version="1.8" codebase="http://www.or.deis.unibo.it/staff_pages/martello/GraphsJ/dist/" href="nimbusLaunch.jnlp" spec="6.0+">
+    <information>
+        <title>GraphsJ - Nimbus theme</title>
+
+        <vendor>Gianluca Costa</vendor>
+
+        <homepage href="http://www.or.deis.unibo.it/staff_pages/martello/GraphsJ/GraphsJ.html"/>
+
+        <description>Didactic Java software for graph algorithms.</description>
+
+        <description kind="short">GraphsJ</description>
+
+        <icon href="http://www.or.deis.unibo.it/staff_pages/martello/GraphsJ/BigIcon.png" kind="default"/>
+
+        <offline-allowed />
+		
+        <shortcut online="false">
+            <desktop />
+        </shortcut>
+
+    </information>
+
+
+    <security>
+        <all-permissions/>
+    </security>
+
+
+    <update check="timeout" policy="always" />
+
+
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="GraphsJ.jar" main="true"/>
+        <jar href="lib/jgraph.jar"/>
+        <jar href="lib/jgrapht-jdk1.6.jar"/>
+    </resources>
+
+
+    <application-desc main-class="graphsj.Application">
+        <argument>com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel</argument>
+    </application-desc>
+</jnlp>
